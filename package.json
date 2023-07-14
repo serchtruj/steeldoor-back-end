@@ -1,0 +1,26 @@
+{
+  "name": "steeldoor-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serchtruj/steeldoor-back-end.git"
+  },
+  "author": "sergio.trujillodev@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serchtruj/steeldoor-back-end/issues"
+  },
+  "homepage": "https://github.com/serchtruj/steeldoor-back-end#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
